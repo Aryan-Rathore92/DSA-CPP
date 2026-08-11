@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-   /* int a = 123;
+    int a = 123;
     char b = 'b';
     bool c = true;
     float d = 1.2;
@@ -19,16 +19,17 @@ int main(){
     cout << sizeB << endl;
     cout << sizeC << endl;
     cout << sizeD << endl;
-    cout << sizeE << endl; */
+    cout << sizeE << endl; 
     
     // Type Casting
     int a = 'a';
-    cout << a << endl;
+    cout << a << endl; // 97
 
     char ch = 98;
-    cout << ch << endl;
+    cout << ch << endl; // b
 
-    char ch1 = 123456;
-    cout << ch1 << endl;
+    int num = 2.0/5; // result will come 0.4 and then will be convert into int that is why result comes 0
+    float num2 = 2.0/5; // float have big priority
+    cout << num << endl;
 
 }
