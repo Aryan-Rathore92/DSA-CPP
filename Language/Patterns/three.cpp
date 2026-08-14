@@ -42,7 +42,7 @@ int main(){
     //     i++;
     // }
 
-  /*   // Pattern-09
+     // Pattern-09
     int n,row=1;
     cin>>n;
     while(n>=row){
@@ -56,44 +56,44 @@ int main(){
         row++;
     }
 
-    int n,row=1;
-    cin>>n;
-    while(n>=row){
-        int col=0;
-        while(row>col){
-            cout << row + col << " "; //{ method --- 02}
-            col++;
-        }
-        cout << endl;
-        row++;
-    }
-  */
+    // int n,row=1;
+    // cin>>n;
+    // while(n>=row){
+    //     int col=0;
+    //     while(row>col){
+    //         cout << row + col << " "; //{ method --- 02}
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+  
    
-  /*   // Pattern - 10
-     int n,row=1;
-     cin>>n;
-     while(n>=row){
-        int col=0;
-        while(row > col){
-            cout << row-col; // {method --- 01}
-            col++;
-        }
-        cout << endl;
-        row++;
-     }
+     // Pattern - 10
+    //  int n,row=1;
+    //  cin>>n;
+    //  while(n>=row){
+    //     int col=0;
+    //     while(row > col){
+    //         cout << row-col; // {method --- 01}
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    //  }
 
-     int n,i=1;
-     cin>>n;
-     while(n>=i){
-        int j=1;
-        while(i >= j){
-            cout << i-j+1; // {method --- 02}
-            j++;
-        }
-        cout << endl;
-        i++;
-     }
-   */  
+    //  int n,i=1;
+    //  cin>>n;
+    //  while(n>=i){
+    //     int j=1;
+    //     while(i >= j){
+    //         cout << i-j+1; // {method --- 02}
+    //         j++;
+    //     }
+    //     cout << endl;
+    //     i++;
+    //  }
+     
 
    
 }
