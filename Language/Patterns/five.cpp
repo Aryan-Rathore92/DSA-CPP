@@ -83,9 +83,10 @@ using namespace std;
         while(n>j){
             cout<< value << " ";
             value += 1;
-            j++;
+             j++;
         }
         cout<< endl;
         i++;
     }
+
 }
