@@ -79,16 +79,14 @@ int main(){
 
   // Pattern -- 15
     int n, i=1;
-    char value;
     cin>>n;
     while(n>=i){
-        int j=0;
-        while(n>j){
+        int j=1;
+        while(n>=j){
+            char value = 'A'+ i + j -2;
             cout << value<< " ";
-            // value += 1;
             j++;
         }
-        value -= 2;
         cout << endl;
         i++;
     }
