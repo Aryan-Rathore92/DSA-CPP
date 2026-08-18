@@ -78,14 +78,14 @@ int main() {
     //    }
 
     // Question---08
-    //   for(int i=0; i<5; i++){
-    //     for(int j=1; j<=5; j++){
-    //         if(i+j == 10){
-    //             break;
-    //         }
-    //         cout << i << " " << j << endl;
-    //     }
-    //    }
+      for(int i=0; i<5; i++){
+        for(int j=1; j<=5; j++){
+            if(i+j == 10){
+                break;
+            }
+            cout << i << " " << j << endl;
+        }
+       }
     
     
     
