@@ -50,14 +50,44 @@ int main() {
     //   }
 
     // Question---04
-    //    for(int i=1; i<=5; i++){
-    //     cout << i << " "; // 1 3 5 
+    //    for(int i=0; i<=5; i++){
+    //     cout << i << " "; // 0 2 4 
     //     i++;
     //    }
 
     // Question---05
-      
-      
+    //    for(int i=0; i<=5; i--){
+    //     cout << i << " "; // Infinite loop
+    //     i++;
+    //    }
+    
+    // Question---06
+    //    for(int i=0; i<=15; i += 2){
+    //     cout << i << " "; // 0 3 5 7 9 11 13 15 
+    //     if(i&1){
+    //         continue;
+    //     }
+    //     i++;
+    //    }
 
+    // Question---07
+    //    for(int i=0; i<5; i++){
+    //     for(int j=1; j<=5; j++){
+    //         cout << i << " " << j << endl;
+    //     }
+    //    }
+
+    // Question---08
+    //   for(int i=0; i<5; i++){
+    //     for(int j=1; j<=5; j++){
+    //         if(i+j == 10){
+    //             break;
+    //         }
+    //         cout << i << " " << j << endl;
+    //     }
+    //    }
+    
+    
+    
 
 }
