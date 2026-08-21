@@ -19,23 +19,32 @@ int main(){
     // }
     // cout << ans << endl;
 
+    // Question leetcode-- 1009 [Complement of base 10 integer]
+    // int n;
+    // cin>>n;
+    // int m = n;
+    // int mask = 0;
+    // if(n == 0){
+    //    cout<< 1 << endl;
+    // }
+    // while(m != 0){
+    //     mask = (mask<<1) | 1;
+    //     m = m>>1;
+    // }
+    // int ans = (~n) & mask;
+    // cout<< ans <<endl;
+
+    // Power of 2 leetcode-231
     int n;
     cin>>n;
-    int ans = 0,i=0,j=0,newNum=0;
-    while(n != 0){
-        int bit = n&1;
-        bit = !bit;
-        ans = bit* pow(10,i) + ans;
-        n = n>>1;
-        i++;
-    }
-    while(n != 0){
-        int digit = ans%10;
-        if( digit == 1){
-          newNum = newNum + pow(2,j); // binary to decimal conversion
+    int ans = 1;
+    for(int i=0; i<=30; i++){
+        if(ans == n){
+            return true;
         }
-        ans = ans/10;
-        j++;
+        if(ans < INT8_MAX){
+            ans = ans*2;
+        }
     }
-    
+    return false;
 }
