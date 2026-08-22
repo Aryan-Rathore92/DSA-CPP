@@ -28,24 +28,44 @@ using namespace std;
 //     int denominator  = factorial(r)*factorial(n-r);
 //     return numerator/denominator;
 // }
+
 // 1-> prime
 // 0 -> not prime
+// bool isPrime(int n){
+//     for(int i=2; i<n; i++){
+//         if(n%i==0){
+//             return 0;
+//         }
+//     }
+//     return 1;
+// }
 
-bool isPrime(int n){
-    for(int i=2; i<n; i++){
-        if(n%i==0){
-            return 0;
+// Question--01
+//    int calculateAP(int n){
+//     int ans = (3*n)+7;
+//     return ans;
+//    }
+
+// Question--02
+   int calculateSetBits(int a, int b,int count){
+       int ans = a&b;
+    while(true){
+        if(ans == 0) break;
+        int answer = ans&1;
+        if(answer){
+            count++;
         }
+        ans = ans>>1;
     }
-    return 1;
-}
+    return count;
+   }
 
 int main() {
-    int n;
-    cin>>n;
-    if(isPrime(n)){
-        cout << "Number is prime : " << n << endl;
-    }else{
-        cout << "Number is Not prime : " << n << endl;
-    }
-    }
+    int a,b,count=0;
+    cout<< "Enter the value of a: ";
+    cin>>a;
+    cout<< "Enter the value of b: ";
+    cin>>b;
+    int answer = calculateSetBits(a,b,count);
+    cout << answer << endl;
+}
