@@ -47,25 +47,43 @@ using namespace std;
 //    }
 
 // Question--02
-   int calculateSetBits(int a, int b,int count){
-       int ans = a&b;
-    while(true){
-        if(ans == 0) break;
-        int answer = ans&1;
-        if(answer){
-            count++;
-        }
-        ans = ans>>1;
-    }
-    return count;
-   }
+//    int calculateSetBits(int a, int b,int count){
+//        int ans = a&b;
+//     while(true){
+//         if(ans == 0) break;
+//         int answer = ans&1;
+//         if(answer){
+//             count++;
+//         }
+//         ans = ans>>1;
+//     }
+//     return count;
+//    }
+
+//  Question---03
+    // int fibbonaciSeries(int n){
+    //     int a = 0;
+    //     int b = 1;
+    //     int newTerm;
+    //     for(int i=1; i<=n; i++){
+    //         if(n==1){
+    //             cout << "0" << " ";
+    //             break;
+    //         } else if(n==2){
+    //             cout << "1" << " ";
+    //             break;
+    //         }
+    //         newTerm = a+b;
+    //         a = b;
+    //         b = newTerm;
+    //         cout << newTerm << " ";
+    //     }
+    //     cout << endl;
+    //     cout<< newTerm;
+    // }
 
 int main() {
-    int a,b,count=0;
-    cout<< "Enter the value of a: ";
-    cin>>a;
-    cout<< "Enter the value of b: ";
-    cin>>b;
-    int answer = calculateSetBits(a,b,count);
-    cout << answer << endl;
+    // int n;
+    // cin>>n;
+    // fibbonaciSeries(n);
 }
