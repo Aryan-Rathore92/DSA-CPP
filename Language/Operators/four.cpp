@@ -2,6 +2,16 @@
 #include<math.h>
 using namespace std;
 
+int test(int n){
+    if(n<0) cout<< "false";
+    int ans = n&(n-1);
+    if(ans == 0){
+        cout<< "true";
+    }else{
+        cout<< "false";
+    }
+
+}
 int main(){
     // Question [Binary to decimal]
     // int n;
@@ -37,14 +47,6 @@ int main(){
     // Power of 2 leetcode-231
     int n;
     cin>>n;
-    int ans = 1;
-    for(int i=0; i<=30; i++){
-        if(ans == n){
-            return true;
-        }
-        if(ans < INT8_MAX){
-            ans = ans*2;
-        }
-    }
-    return false;
+    test(n);
+    
 }
