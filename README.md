@@ -26,15 +26,26 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/0136-single-number) |
+| [0349-intersection-of-two-arrays](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/0349-intersection-of-two-arrays) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/0442-find-all-duplicates-in-an-array) |
 | [1207-unique-number-of-occurrences](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/1207-unique-number-of-occurrences) |
 ## Hash Table
 |  |
 | ------- |
+| [0349-intersection-of-two-arrays](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/0349-intersection-of-two-arrays) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/0442-find-all-duplicates-in-an-array) |
 | [1207-unique-number-of-occurrences](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/1207-unique-number-of-occurrences) |
 ## Sorting
 |  |
 | ------- |
+| [0349-intersection-of-two-arrays](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/0349-intersection-of-two-arrays) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/0442-find-all-duplicates-in-an-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0349-intersection-of-two-arrays](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/0349-intersection-of-two-arrays) |
+## Binary Search
+|  |
+| ------- |
+| [0349-intersection-of-two-arrays](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/0349-intersection-of-two-arrays) |
 <!---LeetCode Topics End-->
