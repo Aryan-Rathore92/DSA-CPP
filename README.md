@@ -26,9 +26,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/0136-single-number) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/0442-find-all-duplicates-in-an-array) |
 | [1207-unique-number-of-occurrences](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/1207-unique-number-of-occurrences) |
 ## Hash Table
 |  |
 | ------- |
+| [0442-find-all-duplicates-in-an-array](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/0442-find-all-duplicates-in-an-array) |
 | [1207-unique-number-of-occurrences](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/1207-unique-number-of-occurrences) |
+## Sorting
+|  |
+| ------- |
+| [0442-find-all-duplicates-in-an-array](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/0442-find-all-duplicates-in-an-array) |
 <!---LeetCode Topics End-->
