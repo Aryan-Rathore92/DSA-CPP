@@ -26,4 +26,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/0136-single-number) |
+| [1207-unique-number-of-occurrences](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/1207-unique-number-of-occurrences) |
+## Hash Table
+|  |
+| ------- |
+| [1207-unique-number-of-occurrences](https://github.com/Aryan-Rathore92/DSA-CPP/tree/master/1207-unique-number-of-occurrences) |
 <!---LeetCode Topics End-->
