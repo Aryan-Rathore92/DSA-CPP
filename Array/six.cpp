@@ -7,7 +7,7 @@ bool isPossible(int arr[], int n, int m, int mid){
     int studentCount = 1;
     int pageSum = 0;
 
-    for(int i=0; i<n; i++){
+    for(int i=0; i<n; i++){ // This code is saying is possible to allocate the books to the given no. of students
         if(pageSum + arr[i] <= mid){
             pageSum += arr[i];
         }else{
@@ -39,7 +39,7 @@ int findPages(int arr[], int n, int m) {
         }
         mid = s + (e-s)/2;
     }
-    if(m > n) return -1;
+    if(m > n) return -1; // If the students is greater than the books
     return ans;
 }
 int main(){
