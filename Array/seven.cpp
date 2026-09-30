@@ -3,6 +3,7 @@ using namespace std;
 
 int arr[5] = {64, 25, 12, 22, 11};
 
+//  SELECTION SORTING
 // int selectionSort(int arr[], int n)
 // {
 //     for (int i = 0; i < n - 1; i++)
@@ -23,22 +24,54 @@ int arr[5] = {64, 25, 12, 22, 11};
 //     }
 // }
 
-int bubbleSort(int arr[], int n)
+//  BUBBLE SORTING
+// int bubbleSort(int arr[], int n)
+// {
+//     for (int i = 1; i < n; i++)
+//     {
+//         bool swapped = false;
+//         for (int j = 0; j < n - i; j++)
+//         {
+//             if (arr[j] > arr[j + 1])
+//             {
+//                 swap(arr[j], arr[j + 1]);
+//                 swapped = true;
+//             }
+//         }
+//         if (swapped == false)
+//             break;
+//     }
+//     for (int i = 0; i < n; i++)
+//     {
+//         cout << arr[i] << " ";
+//     }
+// }
+
+//  INSTERION SORTING
+int insertionSort(int arr[], int n)
 {
-    for (int i = 1; i < n; i++)
+    int i = 1;
+    while (i < n)
     {
-        bool swapped = false;
-        for (int j = 0; j < n - i; j++)
+        int temp = arr[i];
+        int j = i - 1;
+
+        while (j >= 0)
         {
-            if (arr[j] > arr[j + 1])
+            if (arr[j] > temp)
             {
-                swap(arr[j], arr[j + 1]);
-                swapped = true;
+                arr[j + 1] = arr[j];
+                j--;
+            }
+            else
+            {
+                break;
             }
         }
-        if (swapped == false)
-            break;
+        arr[j + 1] = temp;
+        i++;
     }
+
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
@@ -47,5 +80,6 @@ int bubbleSort(int arr[], int n)
 int main()
 {
     // selectionSort(arr, 5);
-    bubbleSort(arr, 5);
+    // bubbleSort(arr, 5);
+    insertionSort(arr, 5);
 }
