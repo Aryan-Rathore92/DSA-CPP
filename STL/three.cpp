@@ -31,4 +31,7 @@ int main()
     }
 
     cout << d.size() << endl; // 1 2 3
+
+    d.pop_back();
+    d.pop_front();
 }
